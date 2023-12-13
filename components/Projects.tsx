@@ -1,0 +1,82 @@
+import Image from "next/image";
+import React from "react";
+
+const Projects = () => {
+  return (
+    <section id="projects">
+      <h1 className="text-white font-semibold text-center text-6xl ">
+        PROJECTS
+      </h1>
+      <p className=" tracking-[0.5em] text-center text-transparent font-light pb-5  bg-clip-text bg-gradient-to-r from-purple-700 to-orange-500  text-1xl ">
+        EXPLORE NOW
+      </p>
+      <div className=" container mx-auto 2xl  ">
+        <div className="flex-row flex mt-7">
+          <div className="flex-row flex mb-5">
+            <Image
+              src="/FirstProject.png"
+              height={150}
+              width={150}
+              alt="Picture of the author"
+            />
+            <div className="p-3">
+              <p className="text-white font-semibold text-xl">WebHR</p>
+              <p className="text-gray-500 text-[10px]">
+                Designed a modern UI website comprising more than 50 screens,
+                along with the integration of a blog using Next.js.
+              </p>
+            </div>
+          </div>
+          <div className="flex-row flex mb-5">
+            <Image
+              src="/SecondProject.png"
+              height={150}
+              width={150}
+              alt="Picture of the author"
+            />
+            <div className="p-3">
+              <p className="text-white font-semibold text-xl">HireSide</p>
+              <p className="text-gray-500 text-[10px]">
+                Developed a web application on Next.js that allows users to
+                apply for jobs, create job posts, and manage their company
+                profiles.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="flex-row flex">
+          <div className="flex-row flex mb-5">
+            <Image
+              src="/ThirdProject.png"
+              height={150}
+              width={150}
+              alt="Picture of the author"
+            />
+            <div className=" p-3 ">
+              <p className="text-white font-semibold text-xl">Verge Systems</p>
+              <p className="text-gray-500 text-[10px]">
+                Developed the Verge Systems website using React.js.
+              </p>
+            </div>
+          </div>
+          <div className="flex-row flex mb-5">
+            <Image
+              src="/FourProject.png"
+              height={150}
+              width={150}
+              alt="Picture of the author"
+            />
+            <div className="p-3 ">
+              <p className="text-white font-semibold text-xl">Payoasis</p>
+              <p className="text-gray-500 text-[10px]">
+                Designed the modern UI for a banking website utilizing Gatsby.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Projects;
