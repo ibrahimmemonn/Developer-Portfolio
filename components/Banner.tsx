@@ -1,16 +1,11 @@
 "use client";
 
 import React from "react";
-import { motion } from "framer-motion";
 import Image from "next/image";
 
 const Banner = () => {
   return (
-    <motion.div
-      initial="hidden"
-      animate="visible"
-      className="flex flex-row items-center justify-center px-20 mt-[150px] z-[20] "
-    >
+    <div className="flex flex-row items-center justify-center px-20 mt-[150px] z-[20] ">
       <div className="flex flex-col  justify-center  text-center">
         <div className="justify-center flex ">
           <Image
@@ -41,7 +36,7 @@ const Banner = () => {
           </button>
         </div>
       </div>
-    </motion.div>
+    </div>
   );
 };
 
