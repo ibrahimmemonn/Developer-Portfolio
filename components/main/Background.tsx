@@ -14,12 +14,6 @@ const HeroContent = () => {
         <source src="/BlackHole.webm" type="video/webm" />
       </video>tai
       <Banner /> */}
-      <Image
-        className="object-cover p-absolute z-[20]"
-        src="/LooperGroup.png"
-        width={1000}
-        height={1000}
-      />
     </div>
   );
 };
