@@ -7,10 +7,13 @@ import Navbar from "@/components/Navbar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("http://localhost:3000"),
   title: "Ibrahim Portfolio",
   description: "Developer Portfolio By Ibrahim Memon",
   keywords: ["Developer", "Portfolio", "Developer Portflio", "Ibrahim Memon"],
   openGraph: {
+    title: "Ibrahim Memon",
+    description: "Software Engineer",
     images: "/OpenGraph.jpg",
   },
 };

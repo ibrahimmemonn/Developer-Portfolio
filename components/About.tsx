@@ -4,7 +4,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="flex flex-col items-center justify-center h-full relative overflow-hidden pt-[85px] "
+      className="flex flex-col items-center justify-center h-full relative overflow-hidden pt-[35px] "
       style={{ transform: "scale(0.9" }}
     >
       <div className="flex flex-col  justify-around flex-wrap items-center   max-w-[900px]">
