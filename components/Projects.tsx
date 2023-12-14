@@ -24,7 +24,7 @@ const Projects = () => {
                 src="/FirstProject.png"
                 height={150}
                 width={150}
-                alt="Picture of the author"
+                alt="WebHR Project"
               />
               <div className="p-3">
                 <p className="text-white font-semibold text-xl">WebHR</p>
@@ -46,7 +46,7 @@ const Projects = () => {
                 src="/SecondProject.png"
                 height={150}
                 width={150}
-                alt="Picture of the author"
+                alt="HireSide"
               />
               <div className="p-3">
                 <p className="text-white font-semibold text-xl">HireSide</p>
@@ -71,7 +71,7 @@ const Projects = () => {
                 src="/ThirdProject.png"
                 height={150}
                 width={150}
-                alt="Picture of the author"
+                alt="VergeSystems"
               />
               <div className=" p-3 ">
                 <p className="text-white font-semibold text-xl">
@@ -94,7 +94,7 @@ const Projects = () => {
                 src="/FourProject.png"
                 height={150}
                 width={150}
-                alt="Picture of the author"
+                alt="Payoasis"
               />
               <div className="p-3 ">
                 <p className="text-white font-semibold text-xl">Payoasis</p>
