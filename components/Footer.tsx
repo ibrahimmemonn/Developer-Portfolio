@@ -13,6 +13,7 @@ const Footer = () => {
               href={social.link}
               rel="noopener noreferrer"
               target="_blank"
+              key={social.alt}
               className="z-[1]"
             >
               <Image
