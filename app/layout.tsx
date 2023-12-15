@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Ibrahim Memon",
     description: "Software Engineer",
-    images: "/OpenGraph.jpg",
+    image: "/OpenGraph.jpg",
   },
 };
 
