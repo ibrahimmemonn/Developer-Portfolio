@@ -28,11 +28,7 @@ const Footer = () => {
         })}
       </div>
       <p className="text-gray-300 text-center text-sm">
-        Loosely designed in Figma and coded in Visual Studio Code by yours
-        truly. Built with Next.js
-        <br />
-        and Tailwind CSS, deployed with Vercel. All text is set in the Inter
-        typeface.
+        Created with ❤️ using Next.js
       </p>
     </div>
   );
