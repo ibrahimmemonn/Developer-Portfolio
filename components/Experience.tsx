@@ -1,6 +1,6 @@
 import React from "react";
 
-const Experience = () => {
+const Experience: React.FC<{}> = () => {
   return (
     <section id="experience">
       <h1 className="text-white font-semibold text-center text-6xl   pt-[35px]">

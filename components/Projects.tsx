@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-const Projects = () => {
+const Projects: React.FC<{}> = () => {
   return (
     <section id="projects">
       <h1 className="text-white font-semibold text-center text-6xl pt-[35px]">
