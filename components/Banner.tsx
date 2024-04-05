@@ -20,13 +20,16 @@ const Banner: React.FC<{}> = () => {
         <div className="flex flex-col gap-6 mt-6 cursor-pointer animate-bounce tracking-tighter text-7xl font-semibold text-white max-w-[600px] w-auto h-auto">
           Ibrahim Memon!
         </div>
-        <p className="text-2xl font-medium tracking-tighter  text-gray-300 max-w-[600px]">
-          I do Code &{" "}
-          <span className="text-transparent font-semibold  bg-clip-text bg-gradient-to-r from-purple-500 to-orange-400">
-            Chill
-          </span>{" "}
-          🍿
-        </p>
+        <div className="flex justify-center">
+          <p className="text-2xl font-medium tracking-tighter  text-gray-300 max-w-[600px]">
+            I do Code &{" "}
+            <span className="text-transparent font-semibold  bg-clip-text bg-gradient-to-r from-purple-500 to-orange-400">
+              Chill
+            </span>
+          </p>
+          <Image src="/popcorn.gif" height={50} width={50} alt="chill" />
+        </div>
+
         <p className="text-md text-gray-200 my-5 max-w-[600px]">
           Passionate Software Engineer with a focus on React Native development,
           dedicated to crafting elegant and user-friendly mobile applications.
