@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const Experience: React.FC<{}> = () => {
@@ -10,12 +11,23 @@ const Experience: React.FC<{}> = () => {
         EXPLORE NOW
       </p>
       <div className=" container mx-auto 2xl ">
-        <div className="flex  flex-row justify-between pt-5">
-          <p className="text-gray-300 ">
-            <span className="font-semibold">WebHR /</span> Software Engineer
+        <div className="md:flex md:flex-row md:justify-between pt-5">
+          <div className="flex items-center gap-3">
+            <Image
+              src={"/WebHR.svg"}
+              height={30}
+              width={30}
+              alt={"experience"}
+            />
+            <p className="text-gray-300 ">
+              <span className="font-semibold">WebHR /</span> Software Engineer
+            </p>
+          </div>
+          <p className="text-gray-300 md:pt-0 pt-3">
+            May 2022 - Present, United States
           </p>
-          <p className="text-gray-300">MAY 2022 - PRESENT, HYDERABAD</p>
         </div>
+
         <p className="text-gray-300 pt-5">
           Currently, I am working on WebHR Mobile Application, WebHR is a Cloud
           based Social HR Software for SMEs by Verge Systems Inc. WebHR is
