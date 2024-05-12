@@ -7,16 +7,28 @@ import Navbar from "@/components/Navbar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL(
-    "https://developer-portfolio-ibrahim-memons-projects.vercel.app"
-  ),
-  title: "Ibrahim Portfolio",
-  description: "Developer Portfolio By Ibrahim Memon",
-  keywords: ["Developer", "Portfolio", "Developer Portflio", "Ibrahim Memon"],
+  metadataBase: new URL("https://ibiimemon.com/"),
+  title: "Ibrahim Memon | Next.js | React | ReactNative | Android",
+  description:
+    "Frontend & Mobile App Developer from Pakistan with 3+ years of expertise. Senior Software Engineer. Specializing mobile apps, UX, and JavaScript technologies.",
+  keywords: [
+    "Developer",
+    "Portfolio",
+    "Developer Portflio",
+    "Ibrahim Memon",
+    "Next.js",
+    "React",
+    "ReactNative",
+    "Android",
+  ],
   openGraph: {
-    title: "Ibrahim Memon",
-    description: "Software Engineer",
+    title: "Ibrahim Memon | Next.js | React | ReactNative | Android",
+    description:
+      "Frontend & Mobile App Developer from Pakistan with 3+ years of expertise. Senior Software Engineer. Specializing mobile apps, UX, and JavaScript technologies.",
     images: "/OpenGraph.jpg",
+  },
+  alternates: {
+    canonical: "https://ibiimemon.com/",
   },
 };
 
@@ -28,8 +40,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.className} bg-[#111] overflow-y-scroll overflow-x-hidden`}
-      >
+        className={`${inter.className} bg-[#111] overflow-y-scroll overflow-x-hidden`}>
         <StarsCanvas />
         <Navbar />
         {children}

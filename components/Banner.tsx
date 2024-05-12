@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const Banner: React.FC<{}> = () => {
   return (
-    <div className="flex flex-row items-center justify-center px-20 mt-[150px] z-[20] ">
+    <div className="flex flex-row items-center justify-center px-20 mt-[100px] z-[20] ">
       <div className="flex flex-col  justify-center  text-center">
         <div className="justify-center flex ">
           <Image
