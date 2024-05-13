@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://ibiimemon.com/"),
-  title: "Ibrahim Memon | Next.js | React | ReactNative | Android",
+  title: "Ibrahim Memon - SWE | IXD | UX",
   description:
     "Frontend & Mobile App Developer from Pakistan with 3+ years of expertise. Senior Software Engineer. Specializing mobile apps, UX, and JavaScript technologies.",
   keywords: [
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     "Android",
   ],
   openGraph: {
-    title: "Ibrahim Memon | Next.js | React | ReactNative | Android",
+    title: "Ibrahim Memon - SWE | IXD | UX",
     description:
       "Frontend & Mobile App Developer from Pakistan with 3+ years of expertise. Senior Software Engineer. Specializing mobile apps, UX, and JavaScript technologies.",
     images: "/OpenGraph.jpg",
@@ -40,7 +40,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.className} bg-[#111] overflow-y-scroll overflow-x-hidden`}>
+        className={`${inter.className} bg-[#111] overflow-y-scroll overflow-x-hidden`}
+      >
         <StarsCanvas />
         <Navbar />
         {children}

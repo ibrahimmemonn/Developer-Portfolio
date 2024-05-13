@@ -17,13 +17,14 @@ const Projects: React.FC<{}> = () => {
             href="https://web.hr/"
             rel="noopener noreferrer"
             target="_blank"
-            className="z-[1]">
+            className="z-[1]"
+          >
             <div className="flex-row flex mb-5">
               <Image
                 src="/FirstProject.png"
                 height={150}
                 width={150}
-                alt="WebHR Project"
+                alt="First Project"
               />
               <div className="p-3">
                 <p className="text-white font-semibold text-xl">WebHR</p>
@@ -38,7 +39,8 @@ const Projects: React.FC<{}> = () => {
             href="https://hireside.com/"
             rel="noopener noreferrer"
             target="_blank"
-            className="z-[1]">
+            className="z-[1]"
+          >
             <div className="flex-row flex mb-5">
               <Image
                 src="/SecondProject.png"
@@ -62,7 +64,8 @@ const Projects: React.FC<{}> = () => {
             href="https://www.vergesystems.com/"
             rel="noopener noreferrer"
             target="_blank"
-            className="z-[1]">
+            className="z-[1]"
+          >
             <div className="flex-row flex mb-5">
               <Image
                 src="/ThirdProject.png"
@@ -84,7 +87,8 @@ const Projects: React.FC<{}> = () => {
             href="http://44.201.47.75/"
             rel="noopener noreferrer"
             target="_blank"
-            className="z-[1]">
+            className="z-[1]"
+          >
             <div className="flex-row flex mb-5">
               <Image
                 src="/FourProject.png"
