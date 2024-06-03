@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import StarsCanvas from "@/components/main/StarsBackground";
 import Navbar from "@/components/Navbar";
 
@@ -43,6 +44,7 @@ export default function RootLayout({
       <body
         className={`${inter.className} bg-[#111] overflow-y-scroll overflow-x-hidden`}
       >
+        <SpeedInsights />
         <Analytics />
         <StarsCanvas />
         <Navbar />
