@@ -5,14 +5,15 @@ import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import StarsCanvas from "@/components/main/StarsBackground";
 import Navbar from "@/components/Navbar";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://ibiimemon.com/"),
-  title: "Ibrahim Memon - SWE | IXD | UX",
+  title: "Ibrahim Memon - SWE | IXD | UX - Developer Portfolio",
   description:
-    "Frontend & Mobile App Developer from Pakistan with 3+ years of expertise. Senior Software Engineer. Specializing mobile apps, UX, and JavaScript technologies.",
+    "Developer Portfolio of Frontend & Mobile App Developer from Pakistan with 3+ years of expertise. Senior Software Engineer. Specializing mobile apps, UX, and JavaScript technologies.",
   keywords: [
     "Developer",
     "Portfolio",
@@ -50,6 +51,7 @@ export default function RootLayout({
         <Navbar />
         {children}
       </body>
+      <GoogleAnalytics gaId="5VG935E5QH" />
     </html>
   );
 }
