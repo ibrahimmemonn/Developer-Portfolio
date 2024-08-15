@@ -5,7 +5,6 @@ import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import StarsCanvas from "@/components/main/StarsBackground";
 import Navbar from "@/components/Navbar";
-import { GoogleAnalytics } from "@next/third-parties/google";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -34,7 +33,6 @@ export const metadata: Metadata = {
     canonical: "https://ibiimemon.com/",
   },
 };
-
 export default function RootLayout({
   children,
 }: {
@@ -42,6 +40,23 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <script
+          async
+          src={`https://www.googletagmanager.com/gtag/js?id=G-${process.env.NEXT_PRIVATE_GTID}`}
+        ></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+
+              gtag('config', 'G-${process.env.NEXT_PRIVATE_GTID}');
+            `,
+          }}
+        />
+      </head>
       <body
         className={`${inter.className} bg-[#111] overflow-y-scroll overflow-x-hidden`}
       >
@@ -51,7 +66,6 @@ export default function RootLayout({
         <Navbar />
         {children}
       </body>
-      <GoogleAnalytics gaId="5VG935E5QH" />
     </html>
   );
 }
