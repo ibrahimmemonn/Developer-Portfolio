@@ -27,7 +27,12 @@ const Banner: React.FC<{}> = () => {
               Chill
             </span>
           </p>
-          <Image src="/popcorn.gif" height={50} width={50} alt="chill" />
+          <Image
+            src="/popcorn.gif"
+            height={50}
+            width={50}
+            alt="Ibrahim Memon"
+          />
         </div>
 
         <p className="text-md text-gray-200 my-5 max-w-[600px]">
@@ -37,7 +42,8 @@ const Banner: React.FC<{}> = () => {
         <div className="text-md flex justify-center">
           <button
             onClick={() => window.open("mailto:ibrahimmemon930@gmail.com")}
-            className=" z-[1]     padding-20  hover:bg-white rounded-3xl  text-white font-semibold hover:text-black py-3 px-10  border-[0.1px] border-white hover:border-transparent ">
+            className=" z-[1]     padding-20  hover:bg-white rounded-3xl  text-white font-semibold hover:text-black py-3 px-10  border-[0.1px] border-white hover:border-transparent "
+          >
             Contact Me
           </button>
         </div>

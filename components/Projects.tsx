@@ -24,7 +24,7 @@ const Projects: React.FC<{}> = () => {
                 src="/FirstProject.png"
                 height={150}
                 width={150}
-                alt="First Project"
+                alt="Ibrahim Memon - UX Design Project"
               />
               <div className="p-3">
                 <p className="text-white font-semibold text-xl">WebHR</p>
@@ -46,7 +46,7 @@ const Projects: React.FC<{}> = () => {
                 src="/SecondProject.png"
                 height={150}
                 width={150}
-                alt="HireSide"
+                alt="Ibrahim Memon - UX Design Project"
               />
               <div className="p-3">
                 <p className="text-white font-semibold text-xl">HireSide</p>
@@ -71,7 +71,7 @@ const Projects: React.FC<{}> = () => {
                 src="/ThirdProject.png"
                 height={150}
                 width={150}
-                alt="VergeSystems"
+                alt="Ibrahim Memon - UX Design Project"
               />
               <div className=" p-3 ">
                 <p className="text-white font-semibold text-xl">
@@ -94,7 +94,7 @@ const Projects: React.FC<{}> = () => {
                 src="/FourProject.png"
                 height={150}
                 width={150}
-                alt="Payoasis"
+                alt="Ibrahim Memon - UX Design Project"
               />
               <div className="p-3 ">
                 <p className="text-white font-semibold text-xl">Payoasis</p>

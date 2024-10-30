@@ -14,7 +14,7 @@ const Navbar: React.FC<{}> = () => {
         >
           <Image
             src="/Logo.svg"
-            alt="Ibii Memon Logo"
+            alt="Ibrahim Memon - Developer"
             width={100}
             height={100}
             sizes="100vw"

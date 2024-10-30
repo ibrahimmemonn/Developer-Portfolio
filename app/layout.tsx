@@ -18,8 +18,11 @@ export const metadata: Metadata = {
     "Portfolio",
     "Developer Portflio",
     "Ibrahim Memon",
+    "Ibrahim",
+    "IbiiMemon",
+    "IbrahimMemon",
+    "Ibrahim_Memon",
     "Next.js",
-    "React",
     "ReactNative",
     "Android",
   ],
@@ -41,6 +44,22 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "http://schema.org",
+              "@type": "Person",
+              name: "Ibrahim Memon",
+              jobTitle: "Software Engineer",
+              url: "https://ibiimemon.com",
+              sameAs: [
+                "https://www.linkedin.com/in/ibrahimmemonn/",
+                "https://github.com/ibrahimmemonn",
+              ],
+            }),
+          }}
+        />
         <script
           async
           src={`https://www.googletagmanager.com/gtag/js?id=G-${process.env.NEXT_PRIVATE_GTID}`}

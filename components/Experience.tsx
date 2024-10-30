@@ -17,7 +17,7 @@ const Experience: React.FC<{}> = () => {
               src={"/WebHR.svg"}
               height={30}
               width={30}
-              alt={"experience"}
+              alt={"Ibrahim Memon - UX Experience"}
             />
             <p className="text-gray-300 ">
               <span className="font-semibold">WebHR /</span> Software Engineer
@@ -32,7 +32,7 @@ const Experience: React.FC<{}> = () => {
           Currently, I am working on WebHR Mobile Application, WebHR is a Cloud
           based Social HR Software for SMEs by Verge Systems Inc. WebHR is
           currently used in over 160 countries world wide by thousands of
-          organizations to manage HR, As a React.js developer with 1.5 year of
+          organizations to manage HR, As a React.js developer with 2.5 year of
           experience, I have a strong foundation in creating dynamic and
           responsive mobile and web applications.
           <br />
