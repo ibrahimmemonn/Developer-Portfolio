@@ -33,7 +33,7 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 # 🚚 Deployment
 
-Every branch or Pull Request is automatically deployed by [Vercel](https://vercel.com/) with their GitHub integration, where the `main` branch is automatically aliased to [ibrahimmemon.com](https://developer-portfolio-jokpvaf4a-ibrahim-memons-projects.vercel.app/). A link to a preview deployment will appear under each Pull Request.
+Every branch or Pull Request is automatically deployed by [Vercel](https://vercel.com/) with their GitHub integration, where the `main` branch is automatically aliased to [ibiimemon.com](ibiimemon.com/). A link to a preview deployment will appear under each Pull Request.
 
 # 🏛 Licenses
 
